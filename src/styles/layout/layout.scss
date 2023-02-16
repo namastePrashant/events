@@ -1,0 +1,9 @@
+@import "./header";
+@import "./sidenav";
+@import "./print";
+
+.main-content-wrapper {
+  max-width: 1300px;
+  margin-inline: auto;
+  margin-top:5px;
+}

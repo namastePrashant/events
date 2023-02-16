@@ -1,0 +1,20 @@
+.app-btn {
+  background-color: #f7f8fa !important;
+  border: 0px !important;
+  color: $primary !important;
+}
+
+.ant-btn.ant-btn-primary {
+  border-color: $primary;
+  background: $primary;
+}
+
+.ant-btn.ant-btn-link {
+  color: $primary;
+}
+
+.ant-btn {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+}

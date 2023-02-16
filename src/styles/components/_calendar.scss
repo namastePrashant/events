@@ -1,0 +1,98 @@
+.height600 {
+  position: relative;
+  height: 800px;
+}
+
+.examples--header {
+  margin: 0 40px;
+  text-align: center;
+}
+
+.dndOutsideSourceExample {
+  @extend .examples--header;
+  display: flex;
+  > .inner {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    h4 {
+      color: grey;
+      width: 100%;
+    }
+    div[draggable] {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid gray;
+      border-radius: 4px;
+      width: 100px;
+      margin: 10px;
+      cursor: grab;
+    }
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+  }
+}
+
+.card {
+  background-color: white;
+  border: 0;
+  padding: 24px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.isDraggable {
+  cursor: grab !important;
+}
+
+.nonDraggable,
+.nonResizable {
+  background-color: lighten(#3bff4b, 40) !important;
+  color: black !important;
+}
+
+.powderBlue {
+  background-color: powderblue;
+  color: black;
+}
+
+.darkGreen {
+  background-color: darkgreen;
+  color: white;
+}
+
+.slotDefault {
+  background-color: "#FAF0E6";
+  color: "black";
+}
+
+.tuesday {
+  @extend .powderBlue;
+}
+
+#my_scheduler {
+  @extend .powderBlue;
+  padding: 0.5em;
+  border: 1px solid blue;
+}
+
+.calendar-toolbar {
+  margin-bottom: 10px;
+  .buttons {
+    position: absolute;
+    right: 0px;
+    h4 {
+      padding-top: 7px;
+    }
+  }
+}
+
+.filtering .rbc-time-view,
+.filtering .rbc-month-view {
+  opacity: 0.1;
+}

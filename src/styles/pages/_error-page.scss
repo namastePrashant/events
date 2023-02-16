@@ -1,0 +1,56 @@
+.container-error {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  img {
+    height: 400px;
+    width: 400px;
+  }
+  .AppButton-Wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  button {
+    border-radius: 15px;
+  }
+}
+
+.side-nav-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 204px;
+  background: #ffff;
+  .side-nav-error_heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    h2 {
+      text-align: center;
+    }
+  }
+}
+
+.ant-result {
+  background-color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .ant-result-extra {
+    button {
+      border-radius: 15px;
+    }
+  }
+
+  .ant-result-title {
+    font-size: 28px;
+  }
+
+  .ant-result-subtitle {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,25 @@
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+body {
+  font-family: $font-primary !important;
+  line-height: 1.5;
+  font-weight: 400 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-bottom: 0;
+}

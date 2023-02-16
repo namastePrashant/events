@@ -1,0 +1,27 @@
+.assign-vendor-modal {
+  .vendor-select {
+    width: 100%;
+  }
+}
+
+.note_modal {
+  .parsed-html {
+    display: table !important;
+
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+  }
+  ul,
+  ol {
+    padding: 0px 15px !important;
+  }
+}
+
+.parsed-html {
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,31 @@
+.card {
+  background-color: #fff;
+  border-radius: 13px;
+  padding: 23px;
+  box-shadow: 0px 5px 3px #b4bcc7;
+  border-radius: 13px !important;
+}
+
+.page-card {
+  margin-bottom: 20px;
+}
+
+.draggable-li {
+  list-style-type: none;
+  .subTaskHeader__col {
+    padding-left: 30;
+  }
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+// ...
+.ant-form-item-explain.ant-form-item-explain-connected {
+  color: red;
+}

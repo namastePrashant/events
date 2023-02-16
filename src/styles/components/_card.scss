@@ -1,0 +1,39 @@
+.event-card {
+  padding: 18px;
+  border: 2px solid #e5e8ec;
+  border-radius: 13px;
+
+  .title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #53575e;
+  }
+
+  .middle-section {
+    .icon {
+      color: #bfdccc;
+      font-size: 45px;
+    }
+
+    .count {
+      font-size: 58px;
+      margin-left: 20px;
+      color: #53575e;
+      margin-bottom: 8px;
+      font-weight: 800;
+    }
+  }
+
+  .ant-btn.app-btn {
+    span {
+      font-weight: 600;
+    }
+  }
+}
+.dashboard {
+  .card.page-card,
+  .card {
+    padding: 20px 25px 25px;
+  }
+}

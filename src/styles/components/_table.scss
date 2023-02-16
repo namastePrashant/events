@@ -1,0 +1,34 @@
+td.ant-table-cell:hover {
+  span {
+    cursor: pointer;
+  }
+}
+
+.ant-table {
+  .ant-table-tbody {
+    a {
+      font-weight: 600;
+    }
+    .anticon-edit {
+      color: #767676;
+    }
+    .anticon-delete {
+      color: $red;
+    }
+  }
+}
+
+.table-pagination{
+ 
+  li{
+ 
+  }
+  .ant-pagination-total-text{
+    position:absolute;
+    left:0px;
+  }
+  .ant-pagination-options-quick-jumper{
+    position:absolute;
+    left:90px;
+  }
+}
